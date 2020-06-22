@@ -14,6 +14,8 @@ This module allows for fast copy/save environment data such as core version or l
 
 Go to Settings tab in Sidebar and right click on **data below** "General Information" header
 
+![](https://i.gyazo.com/658e91e36d570bf6e8c896eb6ce485ff.gif)
+
 ## Features
 
 * Copy Environment (core, system and module versions) to clipboard
