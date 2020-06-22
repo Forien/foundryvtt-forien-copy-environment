@@ -1,5 +1,5 @@
 # FoundryVTT - Forien's Copy Environment
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/forien/foundryvtt-forien-copy-environment?style=for-the-badge)  ![GitHub Releases](https://img.shields.io/github/downloads/Forien/foundryvtt-forien-copy-environment/latest/total?style=for-the-badge)    
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/forien/foundryvtt-forien-copy-environment?style=for-the-badge)  ![GitHub Releases](https://img.shields.io/github/downloads/Forien/foundryvtt-forien-copy-environment/total?style=for-the-badge)    
 **[Compatibility]**: *FoundryVTT* 0.6.0+  
 **[Systems]**: *any*  
 

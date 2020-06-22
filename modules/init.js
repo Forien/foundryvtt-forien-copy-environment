@@ -10,6 +10,8 @@ class FCE {
       text += `${m.id} ${m.data.version} (${m.data.author})\n`;
     });
 
+    text += `\n${data.message}`;
+
     const el = document.createElement('textarea');
     el.value = text;
     el.setAttribute('readonly', '');
@@ -58,7 +60,9 @@ class FCE {
     let system = game.data.system;
     let core = game.data.version;
 
-    return {core, system, modules};
+    let message = "List generated with Forien's Copy Environment: https://github.com/Forien/foundryvtt-forien-copy-environment"
+
+    return {message, core, system, modules};
   }
 
   static getModules() {
