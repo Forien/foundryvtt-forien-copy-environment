@@ -7,7 +7,7 @@ class FCE {
 
     text += `Modules: \n`;
     data.modules.forEach(m => {
-      text += `${m.id} ${m.data.version} (${m.data.author})\n`;
+      text += `${m.id} ${m.data.version} (${m.data.author})\nmanifest: ${m.data.manifest}\ndownload: ${m.data.download}\n\n`;
     });
 
     text += `\n${data.message}`;
@@ -39,7 +39,9 @@ class FCE {
     data.modules = data.modules.map( m => { return {
       id: m.id,
       version: m.data.version,
-      author: m.data.author
+      author: m.data.author,
+      manifest: m.data.manifest,
+      download: m.data.download
     }});
 
     let jsonStr = JSON.stringify(data, null, 4);
