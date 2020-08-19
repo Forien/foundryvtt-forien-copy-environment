@@ -3,7 +3,9 @@
 **[Compatibility]**: *FoundryVTT* 0.6.0+  
 **[Systems]**: *any*  
 
-This module allows for fast copy/save environment data such as core version or list of installed modules and their versions. Supports copying as TXT or saving as JSON
+This module allows for fast copy/save environment data such as core version or list of installed modules and their versions. Supports copying as TXT or saving as JSON.
+
+Module also allows to export (save/backup) current game settings and then import (restore) them. Non-GM users can only import client-side settings.
 
 ## Installation
 
@@ -12,15 +14,18 @@ This module allows for fast copy/save environment data such as core version or l
 
 ### Usage
 
-Go to Settings tab in Sidebar and right click on **data below** "General Information" header
+Go to Settings tab in Sidebar and **right click** on data **below** "General Information" header
 
-![](https://i.gyazo.com/658e91e36d570bf6e8c896eb6ce485ff.gif)
+![](https://i.gyazo.com/8f41b4e7f52e8f560f9265774a9849db.gif)
 
 ## Features
 
 * Copy Environment (core, system and module versions) to clipboard
-* Save Environment to as a JSON file
+* Save Environment (including manifest links) as a JSON file
+* Export game settings (both 'world' and 'client' scopes)
+* Import game settings ('client' ones, and if you are GM also 'world' ones)
 
+*Please note that importing 'world' scope settings en masse as GM might cause some issues to connected players. I advise players should logout before attempt to import World Settings*
 
 ## Contact
 
