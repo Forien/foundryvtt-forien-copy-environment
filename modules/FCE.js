@@ -1,5 +1,5 @@
 export default class FCE {
-  static copy() {
+  static getText() {
     let data = this.getData();
     let text = `Core Version: ${data.core}\n\n`;
 
@@ -11,6 +11,12 @@ export default class FCE {
     });
 
     text += `\n${data.message}`;
+
+    return text;
+  }
+
+  static copy() {
+    let text = this.getText();
 
     const el = document.createElement('textarea');
     el.value = text;
