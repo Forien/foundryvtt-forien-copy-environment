@@ -2,7 +2,7 @@ import FCE from "./FCE.js";
 
 Hooks.on("renderSettings", function (app, html, data) {
   if (game.user.isGM) {
-    new ContextMenu(html, "div.game-system", [
+    new ContextMenu(html, "div.game-system, ul#game-details", [
       {
         name: "Copy as text",
         icon: '<i class="far fa-copy"></i>',
