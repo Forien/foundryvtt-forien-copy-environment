@@ -1,7 +1,7 @@
 # Changelog
 
 ### v1.1.1
-* Added 0.6.6 compatibility
+* Added 0.6.6 compatibility 
 
 ## v1.1.0
 * Added manifest URL link to JSON environment structure
